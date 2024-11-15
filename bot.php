@@ -1,6 +1,6 @@
 <?php
 // Replace with your Telegram Bot Token
-$token = "YOUR_BOT_API_TOKEN";
+$token = "8153170729:AAERI16M7HDYObKSFrvlpwhuuWGLUbJGxC8";
 $website = "https://api.telegram.org/bot" . $token;
 
 // Store the current stopwatch status in a file
