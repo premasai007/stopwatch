@@ -1,0 +1,67 @@
+/* General reset for padding and margin */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stopwatch container */
+.stopwatch {
+    background: #fff;
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Time display */
+.time {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.start {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button.start:hover {
+    background-color: #45a049;
+}
+
+button.stop {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button.stop:hover {
+    background-color: #e53935;
+}
+
+button.reset {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+button.reset:hover {
+    background-color: #fb8c00;
+}
